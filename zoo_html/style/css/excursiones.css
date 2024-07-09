@@ -1,0 +1,80 @@
+#portada{
+    background-image: radial-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../../img/habitats/murcielago.jpg);
+    /*transform: rotate(180deg);*/
+    width: 100vw;
+    height: 700px;
+    align-content: center;
+    background-position: center;
+    background-size:cover;
+}
+
+h1{
+    color: floralwhite;
+}
+
+.ar_excurciones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ar_excurciones p{
+    width:50%;
+}
+.ar_excurciones img{
+    width: 900px;
+    height: 350px;
+}
+
+article{
+    width: auto;
+    display: block;
+    margin:30px;
+    padding: 15px;
+}
+
+section{
+    margin: 15px;
+}
+
+.titulo{
+    font-size: 30px;
+    background-color: #CDC67F;
+}
+
+@media (max-width:1280px){
+    .ar_excurciones img{
+        width: 450px;
+        height: 125px;
+    }
+
+    .ar_excurciones{
+        flex-direction: column;
+    }
+
+    .ar_excurciones p{
+        width: auto;
+        padding: auto;
+    }
+}
+
+
+@media (max-width:900px){
+    section{
+        margin: 0;
+    }
+    .ar_excurciones img{
+        width: 350px;
+        height: auto;
+    }
+
+    .ar_excurciones{
+        flex-direction: column;
+    }
+
+    .ar_excurciones p{
+        width: auto;
+        padding: 15px;
+    }
+}

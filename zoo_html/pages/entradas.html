@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/css/entrada.css">
+    <title>Entradas</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="../index.html" id="logo"><h1>Silvestria</h1></a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu_icon"></i>
+            <i class='bx bx-x' id="close_icon"></i>
+        </label>
+        <nav>
+            <a href="../index.html" >Inicio</a>
+            <a href="" class="activado">Entradas</a>
+            <a href="escurciones.html">Excursiones</a>
+            <a href="habitats.html">Habitats</a>
+            <a href="animales.html">Cuidado animal</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="post">
+                <h1>
+                    Compra tus entradas
+                </h1>
+                <div class="entrada_container">
+                    <input type="number" id="points" name="points" step="1" min="1" value="1">
+                    <label for="">cant entradas</label>
+                </div>
+    
+                <!--//////////////////////////////////-->
+    
+                <div >
+                    <select name="" id="">
+                        <option value="">opcion-1</option>
+                        <option value="">opcion-2</option>
+                        <option value="">opcion-3</option>
+                        <option value="">opcion-4</option>
+                        <option value="">opcion-5</option>
+                    </select>
+                    <label for="">Excurciones</label>
+                </div>
+                
+    
+                <!--//////////////////////////////////-->
+                <div class="text_container">
+                    <input type="text">
+                    <label for="">Nombre</label>
+                </div>
+    
+                <div class="text_container">
+                    <input type="text">
+                    <label for="">Apellido</label>
+                </div>
+                
+                <div class="text_container">
+                    <input type="text">
+                    <label for="">Dni</label>
+                </div>
+                
+                <div class="text_container">
+                    <input type="text">
+                    <label for="">mail</label>
+                </div>
+    
+                <!--//////////////////////////////////-->
+                
+                <div>
+                    <input type="radio" name="option_pago" id="">
+                    <label for="">efectivo</label>
+                    
+                    <input type="radio" name="option_pago" id="">
+                    <label for="">mercado pago</label>
+                    
+                    <input type="radio" name="option_pago" id="">
+                    <label for="">credito</label>
+    
+                </div>
+    
+    
+                <!--//////////////////////////////////-->
+    
+                <button type="submit">Sacar Entrada</button>
+            </form>
+        </div>
+        <footer id="pie">
+            <section id="pie_pagina">
+                <div class="div_contenedor_footer">
+
+                    <h2>Contactos</h2>
+                    <p>Telefono: 1111-1111</p>
+                    <p>Mail: Silvestria@gmail.com</p>
+                    <p>Fax: 1111-1112</p>
+                    <p>Facebook: Silvestria_fb</p>
+                    <p>Twitter: Silvestria_tw</p>
+                    <p>Instagram: Silvestria_ig</p>
+                    <p>Whatsapp: 15 1111-1111</p>
+                    <p>SnapChat: Silvestria_sc</p>
+                    <p>Telegram: Silvestria_tel</p>
+
+                </div>
+
+                <div class="div_contenedor_footer">
+                    <form action="">
+                        <h3>contactanos</h3>
+                        <div class="text_container">
+                            <input type="text" name="" id="">
+                            <label for="">mail</label>
+                        </div>
+                        <textarea name="" id="" placeholder="Deja tu pregunta"></textarea>
+                        <button type="submit">enviar</button>
+                    </form>
+                </div>
+
+                <div class="div_contenedor_footer">
+                    <form action="">
+                        <h3>Contanos tu experiencias</h3>
+                        <textarea name="info" id="" placeholder="Deja tus reseñas positivas"></textarea>
+                        <button type="submit">enviar</button>
+                    </form>
+                </div>
+                
+            </section>
+        </footer>
+    </main>
+</body>
+</html>
